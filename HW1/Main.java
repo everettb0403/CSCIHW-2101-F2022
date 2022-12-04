@@ -2,10 +2,11 @@ package HW1;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Start of HW1");
+        System.out.println("Start of HW1 make sure this is working");
 
         // This is our Main Method. Any code we write here will be executed when we run the program.
         // Write some code here to print out "Hello World" to the console.
+        
 
         // Write some code here to print out the sum of 2 and 3 to the console.
 
