@@ -41,6 +41,7 @@ public class Main {
         // Note2: the charReplace method returns a String type so you will
         //       need to print out the result of the method call.
         // Note3: Look at Replace.java for more information
+        // This is a test
         
 
 
@@ -51,3 +52,4 @@ public class Main {
 
     }
 }
+
