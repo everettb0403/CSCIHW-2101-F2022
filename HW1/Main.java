@@ -6,7 +6,7 @@ public class Main {
 
         // This is our Main Method. Any code we write here will be executed when we run the program.
         // Write some code here to print out "Hello World" to the console.
-        
+        System.out.println("Hello World");
 
         // Write some code here to print out the sum of 2 and 3 to the console.
 
