@@ -19,7 +19,12 @@ public class Loops {
     public static boolean loopE(String str){
         return true; // <- this should be changed 
     }
-
+    ublic static String everyNth(String str, int n) {
+        String out = "";
+        for (int i = 0; i < str.length(); i = i + n) { // i+=n
+            out += str.charAt(i);
+        }
+        return out;
     //Given a String str and int n return a larger string
     //that is n copies of the original string 
     //Ex.
