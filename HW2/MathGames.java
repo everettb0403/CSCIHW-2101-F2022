@@ -11,8 +11,9 @@ public class MathGames {
     // Bonus points: Try to make it accept any 2 sides and return the 3rd. So it can take in
     // Hypotenuse and Perpendicular and return the base.
 
+    A method that will calculate the Pythagorean Theorem c = sqrt(a^2+b^2) ( needed help)
 
-
+    System.out.println("Hello" + " " + (3 + 3 + 3));
     
     // 2. Create a method that will calcuate my grade in the class. You can use the grade range as follows
         // A: 100 - 90
