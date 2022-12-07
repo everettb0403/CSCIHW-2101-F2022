@@ -9,6 +9,15 @@ public class Main {
         System.out.println("Hello World");
 
         // Write some code here to print out the sum of 2 and 3 to the console.
+        System.out.println('3');
+        // System.out.println(3+3); //Integer
+        // TYPE name = value;
+        int answer = 3+3;
+        System.out.println(6);
+        String name = "Brandon";
+
+
+
 
         // You will see another file called Pyramid.java
         // Write some code here to call the Output method from the Pyramid class.
