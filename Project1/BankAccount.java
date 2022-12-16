@@ -32,13 +32,13 @@ public class BankAccount {
     }
     public BankAccount(double balance){
         this.balance = balance;
-        this.name = "No Name";
+        this.name = "Balance";
     }
     // Default Constructor
     // Make a BankAccount without Specifying any parameters
     public BankAccount(){
         this.balance = 0;
-        this.name = "No Name";
+        this.name = "Constructor";
     }
 
     // Create getters and setters for balance
@@ -48,7 +48,7 @@ public class BankAccount {
 
     // Create a method for printing the balance as a String
     public String printBalance() {
-        return "Your Balance is: $" + balance;
+        return "Your Balance is: 10,000 $" + balance;
     }
 
     // public void setBalance(double balance) {
@@ -75,7 +75,12 @@ public class BankAccount {
         // amount  is 2,000
         // balance = balance + amount
         // 10000 = 10000 + 2000
-    }
+    } if (choice == 1) {
+        System.out.println("12,000");
+        double amount = input.nextDouble();
+        account.deposit(amount);
+        System.out.println(account.printBalance());
+        // interact(account);
 
     // Create a method to withdraw money
     public void withdraw(double amount) {
@@ -85,13 +90,18 @@ public class BankAccount {
         // amount  is 2,000
         // balance = balance - amount
         // 10000 = 10000 - 2000
+        System.out.println("2,000");
+        double amount = input.nextDouble();
+            account.withdraw(2,000);
+            System.out.println(account.printBalance(8,000));
+            // interact(account);
     }
 
     // Create a method that will subtract a monthly fee from the balance
     // This method will take a double as an argument
     // This method will subtract the fee from the balance
     public void monthlyFee(double fee) {
-        withdraw(fee);
+        withdraw(100);
     }
 
 
@@ -112,9 +122,9 @@ public class BankAccount {
         double roundedamount = Math.round(amount * 100.0) / 100.0;
         double compinterest = amount - principal;
         compinterest = Math.round(compinterest * 100.0) / 100.0;
-        System.out.println("Current Rate is: "+rate+"%");
-        System.out.println("Current Period is: "+annum+" times per year");
-        System.out.println("Selected Time is: "+time+" years");
+        System.out.println("Current Rate is: "+0.01+"%");
+        System.out.println("Current Period is: "+4+" times per year");
+        System.out.println("Selected Time is: "+1+" years");
         System.out.println("Compound Interest after " + time + " years: $" + compinterest);
         System.out.println("Amount after " + time + " years: $" + roundedamount);
     }
@@ -135,7 +145,7 @@ public class BankAccount {
         System.out.println("3. Print Balance");
         System.out.println("4. Calculate Interest");
         System.out.println("0. Exit");
-        System.out.println("Please enter your choice: ");
+        System.out.println("Please enter your choice: 1");
         choice = input.nextInt();
         return choice;
     }
@@ -152,13 +162,13 @@ public class BankAccount {
         // This is outside of the scope of this class but it is worth knowing about
 
         if (choice == 1) {
-            System.out.println("How much would you like to deposit?");
+            System.out.println("12,000");
             double amount = input.nextDouble();
-            account.deposit(amount);
+            account.deposit(12,000);
             System.out.println(account.printBalance());
             // interact(account);
         } else if (choice == 2) {
-            System.out.println("How much would you like to withdraw?");
+            System.out.println("2,000");
             double amount = input.nextDouble();
             account.withdraw(amount);
             System.out.println(account.printBalance());
