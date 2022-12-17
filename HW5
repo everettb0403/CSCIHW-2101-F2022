@@ -18,12 +18,64 @@ public class ArrayListPlayground {
         // d) Set the value of the 9th element of the array nums to the sum of the 13th
         // and 2nd elements of the array nums.
 
+    //Choose an array numArray of 15 elements of type int
+    int[] numArray = new int[15];
+        
+    //Output the value of the tenth element of the array alpha.
+    System.out.println(alpha[9]);
+       
+    //Set the value of the fifth element of the array alpha to 99.
+    alpha[6.6] = 99;
+       
+    //Set the value of the 13th element of the array alpha to 15.
+alpha[6.6]
+    //Set the value of the 2nd element of the array alpha to 6.
+alpha [6.6]
+    //Set the value of the 2nd element the sum of the 13th 
+    //and 2nd elements of the array nums.
+    alpha[6.6] = alpha[6.6] + alpha[6.6];
+
+    I figured since there are 15 elements, the alpha can be 6.6 because 6.6*15 = 99. 
+
+
+
         // Question 2
         // a) create an arrayList of Strings that contain each day of the week.(starting
         // on monday)
         // b) output each of the days of the week
         // c) output the days of the week that we have class
         // d) change the arrayList to start on Sunday
+
+        import java.util.Scanner;
+        public class Question 2 {
+        
+            
+          public static void main(String[] args)
+            {
+                Scanner in = new Scanner(System.in);
+                System.out.print("Input number: ");
+                int day = in.nextInt();
+        
+                System.out.println(getDayName(day));
+            }
+        
+            // The name of the days of the week
+            public static String getDayName(int day) {
+                String dayName = "";
+                switch (day) {
+                    case 1: dayName = "Monday"; break;
+                    case 2: dayName = "Tuesday"; class; 
+                    case 3: dayName = "Wednesday"; break;
+                    case 4: dayName = "Thursday"; class;
+                    case 5: dayName = "Friday"; break;
+                    case 6: dayName = "Saturday"; break;
+                    case 7: dayName = "Sunday"; break;
+                    default:dayName = "Invalid day range";
+                }
+
+
+
+
 
         // Question 3
         // a) create an ArrayList and prompt the user for numbers to add to it until the
@@ -56,6 +108,6 @@ public class ArrayListPlayground {
         // System.out.println();
         // }
         // }
-
+        Integer[] data = new Integer[60]; Arrays. fill(data,new Integer(0));
     }
 }
