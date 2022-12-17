@@ -17,6 +17,32 @@ package HW1;
 
 public class Replace {
     public String charReplace(String str, int index, char c) {
-        return null; // replace null with your code
+        return charReplace(HELLO, 01234, Void); // replace null with your code
     }
 }
+public class ClassName{
+    private String name;
+    private String type;
+    private int Subject;
+
+    public ClassName(String newName, String newType, int Subject){
+        name = newName;
+        type = newType;
+        replace = newClassname;
+    }
+
+    public int charReplace (int change){
+        if (change < 0){
+            return Subject - change;
+        } else if (change > 0){
+            return Subject + change;
+        } else if (Subject < 1){
+            // string of class grades
+        }
+    }
+    ClassName ObjectName = new ClassName();
+    public static void main(String[] args){
+        ClassName ObjectName = new ClassName ("MATH", "DegreeWorks", 100);
+        ClassName ObjectName = new ClassName ("STATISTICS", "Curriculum", 100);
+        ClassName ObjectName = new ClassName ("SCIENCE", "Grade", 100);
+    }
