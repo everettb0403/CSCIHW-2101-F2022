@@ -1,5 +1,9 @@
 package HW1;
 
+import java.io.OutputStream;
+
+import javax.management.ObjectName;
+
 public class Main {
     public static void main(String[] args) {
         System.out.println("Start of HW1 make sure this is working");
@@ -21,6 +25,15 @@ public class Main {
 
         // You will see another file called Pyramid.java
         // Write some code here to call the Output method from the Pyramid class.
+    
+        public class Pyramid {
+        public static void (String[] args) {
+            System.out.println("The Output Method");
+
+            Class.Method(Pyramid)
+
+            
+            
         // Note: Since Pyramid is a static method you will need to call it like this:
         // Class.Method()
         // Note2: Look at Pyramid.java for more information
@@ -28,6 +41,15 @@ public class Main {
 
         // Now look at the next file called Adlibs.java
         // Write some code here to call the story method from the Adlibs class.
+        public class Adlibs {
+            public String story(Story Method) {
+                return ; System.out.println("");
+
+                Object.Method(ClassName ObjectName = new Classname())
+                System.out.println("Start of HW1 make sure this is working");
+                // replace null with your code
+            }
+        
         // Note: Since story is not a static method you will need to create an object of the Adlibs class
         //       and then call the method on that object.
         // Remember to create an object like this:
@@ -52,6 +74,9 @@ public class Main {
         // Note3: Look at Replace.java for more information
         // This is a test
         
+        public static void main(String[] args) {
+            System.out.println("CharReplaceMethod, from Replace Class");
+            
 
 
 
