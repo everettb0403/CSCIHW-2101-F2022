@@ -17,7 +17,7 @@ public class Loops {
     //eeeeat -> false
 
     public static boolean loopE(String str){
-        return true; // <- this should be changed 
+        return true; // <- this should be changed (CHANGED BELOW)
     }
     ublic static String everyNth(String str, int n) {
         String out = "";
@@ -25,6 +25,22 @@ public class Loops {
             out += str.charAt(i);
         }
         return out;
+
+    stringE("Hello") → true
+    stringE("Heelle") → true
+    stringE("Heelele") → false
+    
+    public boolean stringE(String str) {
+        int count = 0;
+      
+        for (int i=0; i<str.length(); i++) {
+          if (str.charAt(i) == 'e') count++;
+          // alternately: str.substring(i, i+1).equals("e")
+        }
+      
+        return (count >= 1 && count <= 3);
+      }
+    
     //Given a String str and int n return a larger string
     //that is n copies of the original string 
     //Ex.
@@ -33,6 +49,17 @@ public class Loops {
     public static String stringTimes(String str, int n) {
         return null; // <- this should be changed 
     } 
+
+    public boolean stringE(String str) {
+        int count=0;
+      
+        for (int i=0; i<str.length(); i++){
+          String sub= str.substring(i,i+1); 
+          if (sub.equals("e")) 
+            count ++;
+        }
+        return (count>=1 && count<=3);
+      }
 
     //Create a method Given a string, return the string where all of the "z"
     //Have been removed. Except do not remove a z at the start
@@ -44,6 +71,31 @@ public class Loops {
     public static String stringZ(String str){
         return null; // <- this should be changed 
     }
+    // function to remove characters and
+    // print new string
+    function removeSpecialCharacter(s)
+    {
+        for (let i = 0; i < s.length; i++)
+         {
+    
+             // Finding the character where Z is removed.
+             if (s[i] < 'A' || s[i] > 'Z' &&
+                     s[i] < 'a' || s[i] > 'z')
+             {
+                    
+                 // erase function to erase
+                 // the character
+                 s = s.substring(0, i) + s.substring(i + 1);
+                 i--;
+             }
+         }
+         document.write(s);
+    }
+
+
+
+
+
 
     //Create a method that contains a while loop that allows for
     //The user to input numbers until the number 0 is entered. Each time a number is 
